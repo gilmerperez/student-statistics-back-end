@@ -30,7 +30,7 @@ const courseSchema = new Schema<ICourse>(
         students: [
             {
                 type: Schema.Types.ObjectId,
-                ref: 'student',
+                ref: 'Student',
             },
         ],
     },
